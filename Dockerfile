@@ -1,5 +1,5 @@
-FROM debian:wheezy as stage-1
+FROM debian:wheezy@sha256:afaceb10b3e51e53c33028f5a0081d149905ad48e7cd6035d3cb3fd8e214d402 as stage-1
 RUN something
-FROM debian:wheezy
+FROM debian:wheezy@sha256:afaceb10b3e51e53c33028f5a0081d149905ad48e7cd6035d3cb3fd8e214d402
 RUN something else
 # comment
